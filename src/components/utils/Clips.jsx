@@ -1,4 +1,4 @@
-import { BsFillPlayFill } from "react-icons/bs";
+import { BsPlayFill } from "react-icons/bs";
 // eslint-disable-next-line react/prop-types
 const Clips = ({ clip, imgsrc }) => {
   return (
@@ -17,7 +17,7 @@ const Clips = ({ clip, imgsrc }) => {
         sm:top-5  sm:left-5
         right-0 opacity-100 z-[100]  w-8 h-8 md:w-5 md:h-5 flex justify-center items-center rounded-full"
         >
-          <BsFillPlayFill className="icon-style  text-slate-900 md:w-3 md:h-3" />
+          <BsPlayFill className="icon-style  text-slate-900 md:w-3 md:h-3" />
         </div>
         <video
           autoPlay={true}
