@@ -13,7 +13,7 @@
 
   /* container */
   .nike-container {
-    @apply w-11/12 m-auto;
+    @apply w-10/12 m-auto;
   }
 
   /* Scroll */
@@ -60,7 +60,7 @@
 
   /* text-gradient */
   .text-gradient {
-    @apply text-transparent bg-clip-text bg-gradient-to-tr from-blue-500 to-sky-500;
+    @apply text-transparent bg-clip-text bg-gradient-to-tr to-blue-800 from-sky-400;
   }
 
   /* border */
@@ -70,7 +70,7 @@
 
   /* button */
   .button-theme {
-    @apply px-7 py-1 rounded active:scale-90 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
+    @apply px-7 py-1 rounded-lg active:scale-90 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
   }
 
   /* transitions-theme */

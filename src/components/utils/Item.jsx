@@ -31,8 +31,8 @@ const Item = ({
           {text}
         </p>
         <div className="flex items-center  justify-between w-28 my-2">
-          <div className="flex items-center bg-white/80  px-1 rounded blur-effect-theme ">
-            <h1 className="text-black text-sm font-medium ">${price}</h1>
+          <div className="flex items-center  px-1 rounded ">
+            <h1 className=" text-lg text-white font-medium ">${price}</h1>
           </div>
           <div className="flex items-center gap-1 ">
             <BsStarFill className="icon-style  w-5 h-5 md:w-4 md:h-4" />
@@ -48,7 +48,7 @@ const Item = ({
           </button>
           <button
             type="button"
-            className="bg-white/90 text-[#4A148C] border-4 border-[#4A148C] blur-effect-theme button-theme px-2 py-1 shadow text-sm font-medium"
+            className="bg-white/90 text-[#5C2751] border-4 border-[#5C2751] blur-effect-theme button-theme px-2 py-1 shadow text-sm font-medium"
           >
             {btn}
           </button>
@@ -65,7 +65,7 @@ const Item = ({
           className={`mt-3 
         ${
           ifExists
-            ? "h-auto w-64 lg:w-56 md:w-48 -rotate-[25deg]"
+            ? "h-auto w-64 lg:w-56 md:w-48 sm:w-40 xsm:w-32 -rotate-[25deg]"
             : "h-36 w-64 "
         } 
         `}

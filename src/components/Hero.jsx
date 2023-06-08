@@ -19,7 +19,7 @@ const Hero = ({
             </h1>
             <button
               type="button"
-              className=" button-theme bg-[#4A148C] font-bold text-white rounded-xl py-3 sm:py-2 my-5"
+              className=" button-theme bg-[#5C2751] font-bold text-white  py-3 sm:py-2 my-5 transition-all duration-200 ease-in-out hover:bg-[#883978] "
             >
               {btntext}
             </button>

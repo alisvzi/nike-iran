@@ -25,6 +25,16 @@ import product7 from "../assets/product7.png";
 import product8 from "../assets/product8.png";
 import product9 from "../assets/product9.png";
 
+import s1 from "../assets/story/s1.jpg";
+import s2 from "../assets/story/s2.jpg";
+import s3 from "../assets/story/s3.jpg";
+import s4 from "../assets/story/s4.jpg";
+import s5 from "../assets/story/s5.jpg";
+import s6 from "../assets/story/s6.jpg";
+import s7 from "../assets/story/s7.jpg";
+import s8 from "../assets/story/s8.jpg";
+import s9 from "../assets/story/s9.jpg";
+
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import messenger from "../assets/messenger.svg";
@@ -236,7 +246,7 @@ const story = {
     {
       title: "اولین حضور جیسون تیتوم",
       text: "جیسون تیتوم، مدل امضاکننده برند جردن در چند سال گذشته، در این فصل در ایر جردن 37 حضور خواهد داشت، قبل از اینکه به طور بالقوه اولین کفش ورزشی امضای خود را با جامپمن، که اخیراً از طریق توییتر خود شایعه شده بود، در دست ساخت است.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg?w=540&h=380&crop=1",
+      img: s1,
       url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
       like: "3/5",
       time: "11 دقیقه",
@@ -246,7 +256,7 @@ const story = {
     {
       title: "برادران Nike Zoom Freak 4",
       text: "با رسیدن به زمان مناسب برای پاییز، این برداشت آینده از Zoom Freak 4 ظاهراً از روز شکرگزاری الهام گرفته است. نارنجی و قهوه‌ای، دو عنصر اصلی تعطیلات، در سرتاسر قسمت بالایی استفاده می‌شوند و قسمت‌هایی را که در سایه‌های خاکستری قرار نمی‌گیرند، می‌پوشانند.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003-2.jpg?w=540&h=380&crop=1",
+      img: s2,
       time: "41 دقیقه",
       like: "5/5",
       url: "https://sneakernews.com/2022/09/14/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003/",
@@ -256,7 +266,7 @@ const story = {
     {
       title: "Nike Air Max Plus",
       text: "نایک ایر مکس پلاس در چند ماه اخیر از نمایان شدن چندین رنگ مختلف لذت برده است. و با شروع رسمی فصل پاییز، مجموعه دیگری به تقویم اضافه شده است، از جمله این رنگ خاکستری و نارنجی که به تازگی آشکار شده است.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
+      img: s3,
       time: "2 ساعت",
       url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
       like: "5/5",
@@ -266,7 +276,7 @@ const story = {
     {
       title: "Air Jordan Retro High OG",
       text: "سری محبوب AJ1 های Air Jordan Retro High OG با رنگ بندی محبوب با طعم اصلی انگشت زرد. این رنگ توسط نوازنده زک مایرز PE آشکار شد، تقریباً چهار سال بعد، متعصبان اردن بالاخره شات خود را در GR منتشر خواهند کرد.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/03/yellow-toe-jordan-1-release-date-2.jpg",
+      img: s4,
       time: "7 روز",
       url: "https://sneakernews.com/2022/03/09/air-jordan-1-retro-high-og-yellow-toe-555088-711/",
       like: "5/5",
@@ -276,7 +286,7 @@ const story = {
     {
       title: "Nike Air Zoom GT Cut 2",
       text: "بازی Bred coloryway از Zoom GT Cut 2 برای اولین بار در این جمعه، برای Nike Members Nation در سراسر جهان منتشر می شود، در حالی که رنگ سابرینا Ionescus برای تاریخ انتشار 13 اکتبر تعیین شده است. در ضمن، از تصاویر رسمی هر دو رنگ در زیر لذت ببرید.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
+      img: s5,
       time: "1 ماه",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
       like: "3/5",
@@ -286,7 +296,7 @@ const story = {
     {
       title: "Puma Announces Breanna",
       text: "برای اولین بار در بیش از یک دهه، یک سیلوئت بسکتبال برای یکی از بهترین و درخشان ترین ستاره های WNBA، برینا استوارت، دارنده مدال طلای المپیک و فوق ستاره طوفان سیاتل ساخته می شود. Puma Stewie 1 Quiet Fire این جمعه در دسترس خواهد بود.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/puma-stewie-1-quiet-fire-breanna-stewart-release-date-lead.jpg?w=540&h=380&crop=1",
+      img: s6,
       time: "25 روز",
       url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
       like: "3/5",
@@ -296,7 +306,7 @@ const story = {
     {
       title: "Nike Air Force  رنگ نارنجی",
       text: "نایک ایر فورس 1 از ضامن های توری گرفته تا تغییرات شهری الهام گرفته شده، تعدادی تغییرات منحصر به فرد را ارائه کرده است. با این حال، در اینجا، این برند همه چیز را بسیار پایین می‌آورد و رنگی ساده را انتخاب می‌کند که عمدتاً با رنگ مشکی و نارنجی لیزری پوشیده شده است.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Force-1-Black-Yellow-FB7162-081-8.jpg?w=540&h=380&crop=1",
+      img: s7,
       url: "https://sneakernews.com/2022/09/09/nike-air-force-1-black-laser-orange-fb7162-081/",
       time: "6 روز",
       like: "4/5",
@@ -306,7 +316,7 @@ const story = {
     {
       title: "Hello Kitty و Adidas",
       text: "دنیای Sanrio گسترده و مملو از شخصیت های نمادین بسیاری است. با این حال، تعداد کمی از خانواده‌ها با نفوذ عظیم هلو کیتی رقابت می‌کنند، کسی که نقش طلسم را برای همه چیز، از کالاهای پرینگلز گرفته تا همکاری‌های کفش ورزشی، بازی می‌کرد.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/hello-kitty-adidas-superstar-GW7168-2.jpg?w=540&h=380&crop=1",
+      img: s8,
       url: "https://sneakernews.com/2022/09/08/hello-kitty-adidas-originals-gw7166-gw7167-gw7168/",
       time: "5 روز",
       like: "4/5",
@@ -316,7 +326,7 @@ const story = {
     {
       title: "Air Force 1 کم منبسط می شود ",
       text: "زیبایی شبانه که در اینجا مشاهده می‌شود، روی پانل‌های چرمی مشکی روکش‌شده ساختار مشبک رویی و سوراخ‌دار زبان اعمال می‌شود، در حالی که تریم رویال و Swooshes جلوی پا جذابیت بیشتری برای پالت تیره ایجاد می‌کنند.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-air-force-1-low-worldwide-black-royal-fb1840-001-lead.jpg?w=540&h=380&crop=1",
+      img: s9,
       url: "https://sneakernews.com/2022/09/08/nike-air-force-1-low-worldwide-black-royal-fb1840-001/",
       time: "5 روز",
       like: "4/5",
