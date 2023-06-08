@@ -1,6 +1,15 @@
 import "./App.css";
-import { FlexContent, Hero, Sales, Stories } from "./components";
 import {
+  Card,
+  FlexContent,
+  Footer,
+  Hero,
+  Navbar,
+  Sales,
+  Stories,
+} from "./components";
+import {
+  footerAPI,
   heroapi,
   highlight,
   popularsales,
@@ -12,6 +21,8 @@ import {
 function App() {
   return (
     <>
+      <Navbar />
+      <Card />
       <main className="flex flex-col gap-16 relative">
         <Hero heroapi={heroapi} />
         <Sales endpoint={popularsales} ifExists />
@@ -20,6 +31,7 @@ function App() {
         <FlexContent endpoint={sneaker} />
         <Stories story={story} />
       </main>
+      <Footer footerAPI={footerAPI} />
     </>
   );
 }

@@ -71,7 +71,7 @@ const popularsales = {
       btn: "خرید",
       img: psale2,
       price: "210",
-      color: "from-blue-900 via-blue-800 to-blue-600",
+      color: "from-[#0D47A1] via-blue-800 to-blue-600",
     },
     {
       id: "0p0x2",
@@ -81,7 +81,7 @@ const popularsales = {
       btn: "خرید",
       img: psale1,
       price: "190",
-      color: "from-blue-900 via-blue-800 to-blue-600",
+      color: "from-[#0D47A1] via-blue-800 to-blue-600",
     },
     {
       id: "0p0x3",
@@ -91,7 +91,7 @@ const popularsales = {
       btn: "خرید",
       img: psale3,
       price: "230",
-      color: "from-blue-900 via-blue-800 to-blue-600",
+      color: "from-[#0D47A1] via-blue-800 to-blue-600",
     },
   ],
 };
@@ -125,7 +125,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product7,
       price: "520",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x2",
@@ -135,7 +135,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product2,
       price: "350",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x3",
@@ -145,7 +145,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product3,
       price: "260",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x4",
@@ -155,7 +155,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product4,
       price: "220",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x5",
@@ -165,7 +165,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product5,
       price: "420",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x6",
@@ -175,7 +175,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product6,
       price: "230",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x7",
@@ -185,7 +185,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product1,
       price: "150",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x8",
@@ -195,7 +195,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product9,
       price: "400",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x9",
@@ -205,7 +205,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product10,
       price: "320",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x10",
@@ -215,7 +215,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product12,
       price: "200",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x11",
@@ -225,7 +225,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product11,
       price: "130",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
     {
       id: "0M0x12",
@@ -235,7 +235,7 @@ const toprateslaes = {
       btn: "خرید ",
       img: product8,
       price: "250",
-      color: "from-green-800 via-green-700 to-green-500",
+      color: "from-[#1B5E20] via-green-700 to-green-500",
     },
   ],
 };
@@ -338,34 +338,34 @@ const story = {
 
 const footerAPI = {
   titles: [
-    { title: "About Nike" },
-    { title: "Get Help" },
-    { title: "Company" },
+    { title: " درمورد نایکی" },
+    { title: "کمک بگیر" },
+    { title: "شرکت" },
   ],
   links: [
     [
-      { link: "News" },
-      { link: "Careers" },
-      { link: "Investors" },
-      { link: "Prupose" },
-      { link: "Sustainability" },
+      { link: "اخبار" },
+      { link: "مشاغل" },
+      { link: "سرمایه گذاران" },
+      { link: "پیشنهاد کنید" },
+      { link: "پایداری" },
     ],
     [
-      { link: "Order Status" },
-      { link: "Shipping & Delivery" },
-      { link: "Payment Options" },
-      { link: "Gift Card Balance" },
-      { link: "Contact Us" },
-      { link: "FAQ" },
-      { link: "Blog" },
+      { link: "وضعیت سفارش" },
+      { link: "حمل و نقل و تحویل" },
+      { link: "گزینه های پرداخت" },
+      { link: "موجودی کارت هدیه" },
+      { link: "ارتباط با ما" },
+      { link: "سوالات متداول" },
+      { link: "وبلاگ" },
     ],
     [
-      { link: "Gift Cards" },
-      { link: "Promotions" },
-      { link: "Find A Store" },
-      { link: "Signup" },
-      { link: "Nike Jouneral" },
-      { link: "Send Us Feeback" },
+      { link: "کارت هدیه" },
+      { link: "تبلیغات" },
+      { link: "یک مغازه پیدا کن" },
+      { link: "ثبت نام" },
+      { link: "مجله نایکی" },
+      { link: " ارسال بازخورد  " },
     ],
   ],
 };
