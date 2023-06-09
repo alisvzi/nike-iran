@@ -2,9 +2,21 @@ import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { SlMagnifier } from "react-icons/sl";
+import { useDispatch, useSelector } from "react-redux";
+import { selectTotalQTY, setOpenCart } from "../app/CartSlice";
 import logo from "../assets/logo.png";
 const Navbar = () => {
   const [navState, setNavState] = useState(false);
+  const dispatch = useDispatch();
+  const totalQTY = useSelector(selectTotalQTY);
+
+  const onCartToggle = () => {
+    dispatch(
+      setOpenCart({
+        cartState: true,
+      })
+    );
+  };
 
   const onNavScroll = () => {
     if (window.scrollY > 30) {
@@ -55,6 +67,7 @@ const Navbar = () => {
           <li className=" grid items-center ">
             <button
               type="button"
+              onClick={onCartToggle}
               className="border-none  outline-none active:scale-110 transition-all delay-300 relative"
             >
               <RiShoppingCartLine
@@ -69,7 +82,7 @@ const Navbar = () => {
                     : " bg-slate-100 text-slate-900 shadow-slate-900"
                 }`}
               >
-                0
+                {totalQTY}
               </div>
             </button>
           </li>

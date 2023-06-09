@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 import { BsStarFill } from "react-icons/bs";
 import { FaShoppingBag } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { setAddItemToCart, setOpenCart } from "../../app/CartSlice";
 
 const Item = ({
   ifExists,
   id,
   color,
-  shadow,
   title,
   text,
   img,
@@ -13,6 +15,21 @@ const Item = ({
   rating,
   price,
 }) => {
+  const onCartToggle = () => {
+    dispatch(
+      setOpenCart({
+        cartState: true,
+      })
+    );
+  };
+  const dispatch = useDispatch();
+
+  const onAddToCart = () => {
+    const item = { id, color, title, text, img, btn, price };
+
+    dispatch(setAddItemToCart(item));
+  };
+
   return (
     <div
       className={`relative bg-gradient-to-b ${color}   grid items-center ${
@@ -43,12 +60,17 @@ const Item = ({
           <button
             type="button"
             className="bg-white/90  border-4 border-[#1B5E20] button-theme p-0.5 shadow "
+            onClick={() => onAddToCart()}
           >
             <FaShoppingBag className="icon-style text-[#1B5E20]" />
           </button>
           <button
             type="button"
             className="bg-white/90 text-[#5C2751] border-4 border-[#5C2751] blur-effect-theme button-theme px-2 py-1 shadow text-sm font-medium"
+            onClick={() => {
+              onAddToCart();
+              onCartToggle();
+            }}
           >
             {btn}
           </button>

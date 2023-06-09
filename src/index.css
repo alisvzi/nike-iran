@@ -17,13 +17,11 @@
   }
 
   /* Scroll */
-  .scroll-hidden::-webkit-scrollbar {
-    display: none;
-  }
+
   .scroll-style::-webkit-scrollbar {
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+    scrollbar-color: #0f52ba #6c92bf;
   }
   .scroll-style::-webkit-scrollbar {
     @apply w-2;
@@ -32,7 +30,7 @@
     @apply bg-slate-700;
   }
   .scroll-style::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-gradient-to-tr from-blue-500 to-green-500 via-teal-500;
+    @apply rounded-full bg-gradient-to-tr from-[#0f52ba] to-[#6c92bf] via-[#4c75a2];
   }
 
   /* Theme-Colors */
